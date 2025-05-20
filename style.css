@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f0f1c, #001f3f);
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero {
+  padding: 80px 20px 40px;
+  background: linear-gradient(to bottom, #001f3f, #000000);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.3em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #00bfff;
+  color: white;
+  padding: 12px 24px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 2px solid #00bfff;
+  color: #00bfff;
+}
+
+.ai-conversation {
+  padding: 40px 20px;
+}
+
+.ai-box {
+  margin: 10px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+.ai-red {
+  background-color: #550000;
+}
+
+.ai-blue {
+  background-color: #002244;
+}
+
+.ask-box {
+  padding: 40px 20px;
+}
+
+.ask-box input {
+  padding: 12px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.ask-box button {
+  padding: 12px 24px;
+  background: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  padding: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
